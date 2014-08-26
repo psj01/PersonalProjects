@@ -1,0 +1,43 @@
+
+
+/* Resets
+--------------------------------------------------------------------------------*/
+ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, 
+fieldset, input {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/* General Styling and Structure
+--------------------------------------------------------------------------------*/
+body {
+	font-family: 'arial', sans-serif;
+	font-size: 12px;
+	line-height: 21px;
+	color: #999;
+	background:#fff;
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 100%;
+	position: relative;
+}
+ 
+#def
+{
+	color:black;
+	position: relative;
+	text-align:center;
+}
+
+
+/* Footer
+--------------------------------------------------------------------------------*/
+#footer-wrap {
+	visibility:hidden;
+	text-align:right;
+}
+/* Footer
+--------------------------------------------------------------------------------*/
+

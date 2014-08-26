@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    </head>
+
+    <script>
+function convert() {
+    var valu = document.getElementById("some").value;
+    document.getElementById("ansarea").innerHTML = "";
+    valu = valu.toLowerCase();
+    for (var i = 0; i < valu.length; i++) {
+        if (valu[i] == '1') {
+            document.getElementById("ansarea").innerHTML += "1";
+        } else if (valu[i]=='2'||valu[i]=='a'||valu[i]=='b'||valu[i]=='c') {
+            document.getElementById("ansarea").innerHTML += "2";
+        } else if (valu[i]=='3'||valu[i]=='d'||valu[i]=='e'||valu[i]=='f') {
+            document.getElementById("ansarea").innerHTML += "3";
+        } else if (valu[i]=='4'||valu[i]=='g'||valu[i]=='h'||valu[i]=='i') {
+            document.getElementById("ansarea").innerHTML += "4";
+        } else if (valu[i]=='5'||valu[i]=='j'||valu[i]=='k'||valu[i]=='l') {
+            document.getElementById("ansarea").innerHTML += "5";
+        } else if (valu[i]=='6'||valu[i]=='m'||valu[i]=='n'||valu[i]=='o') {
+            document.getElementById("ansarea").innerHTML += "6";
+        } else if (valu[i]=='7'||valu[i]=='p'||valu[i]=='q'||valu[i]=='r'||valu[i]=='s') {
+            document.getElementById("ansarea").innerHTML += "7";
+        } else if (valu[i]=='8'||valu[i]=='t'||valu[i]=='u'||valu[i]=='v') {
+            document.getElementById("ansarea").innerHTML += "8";
+        } else if (valu[i]=='9'||valu[i]=='w'||valu[i]=='x'||valu[i]=='y'||valu[i]=='z') {
+            document.getElementById("ansarea").innerHTML += "9";
+        } else if (valu[i]=='0') {
+            document.getElementById("ansarea").innerHTML += "0";
+        } else {
+            document.getElementById("ansarea").innerHTML += valu[i];
+        }
+    }
+}
+
+function reset()
+{
+
+var valu = document.getElementById("some").value;
+document.getElementById("ansarea").innerHTML = "";
+document.getElementById("some").value = "";
+}
+</script>
+
+
+
+<body  class='  wsite-theme-dark'>
+
+
+<div id="def">
+</br> </br> </br> 
+The purpose of this calculator is to derive a telephone number from a word or alpha</br> 
+phrase that is used to represent a phone number. The word COMPUTE equates to 266-7883 </br> 
+in the associated alpha touchpad indicators. Some businesses, such as an automobile </br> 
+dealer, in a common exchange might only seek the last four numbers, such as 325-CARS, </br> 
+instead of 325-2277, for ease of potential customers' memory.
+</br> </br> </br> </br>
+
+<form>Enter the alpha-numeric here : <input type="text" name="number1" id="some">
+
+
+
+<div id="ansarea"></div></form>
+<button type="button" onclick="convert()">Convert</button>
+<button type="button" onclick="reset()">Reset</button>
+</br></br>
+
+
+</div>
+
+    <div id="footer-wrap">
+        <div class="container">
+       		{footer}
+        </div><!-- end container -->
+    </div><!-- end footer-wrap -->
+<div style='display:none'>{title}</div>
+<div style='display:none'>{menu}</div>
+<div style='display:none'>{content}</div>
+</body>
+
+</html>

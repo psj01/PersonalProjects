@@ -1,0 +1,141 @@
+Rear Admiral Grace Murray Hopper (December 9, 1906 - January 1, 1992) 
+was an American computer scientist and United States Navy officer. A 
+pioneer in the field, she was one of the first programmers of the 
+Harvard Mark I computer, and developed the first compiler for a computer 
+programming language. She conceptualized the idea of machine-independent 
+programming languages, which led to the development of COBOL, one of the 
+first modern programming languages. She is credited with popularizing 
+the term "debugging" for fixing computer glitches (motivated by an 
+actual moth removed from the computer, and not by her). Due to the 
+breadth of her accomplishments and her naval rank, she is sometimes 
+referred to as "Amazing Grace." The U.S. Navy destroyer USS Hopper 
+(DDG-70) is named for her, as was the Cray XE6 "Hopper" supercomputer at 
+NERSC.
+
+Hopper was born Grace Brewster Murray in New York City. She was the 
+oldest in a family of three children. She was curious as a child, a 
+lifelong trait. At the age of seven she decided to determine how an 
+alarm clock worked. She dismantled seven alarm clocks before her mother 
+realized what she was doing; she was then limited to one clock. For her 
+preparatory school education, she attended the Hartridge School in 
+Plainfield, New Jersey. Rejected for early admission to Vassar College 
+at age 16 (her test scores in Latin were too low), she was admitted the 
+following year. She graduated Phi Beta Kappa from Vassar in 1928 with a 
+bachelor's degree in mathematics and physics and earned her Master's 
+degree at Yale University in 1930.
+ 
+In 1934, she earned a Ph.D. in mathematics from Yale under the direction 
+of Oystein Ore. Her dissertation, "New Types of Irreducibility 
+Criteria", was published that same year. Hopper began teaching 
+mathematics at Vassar in 1931, and was promoted to associate professor 
+in 1941.
+ 
+She was married to New York University professor Vincent Foster Hopper 
+(1906 - 1976) from 1930 until their divorce in 1945. She never remarried, 
+and she kept his surname.
+
+In 1943, Hopper obtained a leave of absence from Vassar and was sworn in 
+to the United States Navy Reserve, one of many women to volunteer to 
+serve in the WAVES. She had to get an exemption to enlist; she was 15 
+pounds (6.8 kg) below the Navy minimum weight of 120 pounds (54 kg). She 
+reported in December and trained at the Naval Reserve Midshipmen's 
+School at Smith College in Northampton, Massachusetts. Hopper graduated 
+first in her class in 1944, and was assigned to the Bureau of Ships 
+Computation Project at Harvard University as a lieutenant, junior grade. 
+She served on the Mark I computer programming staff headed by Howard H. 
+Aiken. Hopper and Aiken coauthored three papers on the Mark I, also 
+known as the Automatic Sequence Controlled Calculator. Hopper's request 
+to transfer to the regular Navy at the end of the war was declined due 
+to her age (38). She continued to serve in the Navy Reserve. Hopper 
+remained at the Harvard Computation Lab until 1949, turning down a full 
+professorship at Vassar in favor of working as a research fellow under a 
+Navy contract at Harvard.
+
+In 1949, Hopper became an employee of the Eckert-Mauchly Computer 
+Corporation as a senior mathematician and joined the team developing the 
+UNIVAC I. In the early 1950s the company was taken over by the Remington 
+Rand corporation and it was while she was working for them that her 
+original compiler work was done. The compiler was known as the A 
+compiler and its first version was A-0.
+ 
+In 1952 she had an operational compiler. "Nobody believed that," she 
+said. "I had a running compiler and nobody would touch it. They told me 
+computers could only do arithmetic."
+ 
+In 1954 Hopper was named the company's first director of automatic 
+programming, and her department released some of the first 
+compiler-based programming languages, including ARITH-MATIC, MATH-MATIC 
+and FLOW-MATIC.
+
+In the spring of 1959 a two day conference known as the CODASYL brought 
+together computer experts from industry and government. Hopper served as 
+the technical consultant to the committee, and many of her former 
+employees served on the short-term committee that defined the new 
+language COBOL. The new language extended Hopper's FLOW-MATIC language 
+with some ideas from the IBM equivalent, COMTRAN. Hopper's belief that 
+programs should be written in a language that was close to English 
+rather than in machine code or languages close to machine code (such as 
+assembly language) was captured in the new business language, and COBOL 
+would go on to be the most ubiquitous business language to date.
+ 
+From 1967 to 1977, Hopper served as the director of the Navy Programming 
+Languages Group in the Navy's Office of Information Systems Planning and 
+was promoted to the rank of captain in 1973. She developed validation 
+software for COBOL and its compiler as part of a COBOL standardization 
+program for the entire Navy.
+
+In the 1970s, Hopper advocated for the Defense Department to replace 
+large, centralized systems with networks of small, distributed 
+computers. Any user on any computer node could access common databases 
+located on the network. She pioneered the implementation of standards 
+for testing computer systems and components, most significantly for 
+early programming languages such as FORTRAN and COBOL. The Navy tests 
+for conformance to these standards led to significant convergence among 
+the programming language dialects of the major computer vendors. In the 
+1980s, these tests (and their official administration) were assumed by 
+the National Bureau of Standards (NBS), known today as the National 
+Institute of Standards and Technology (NIST).
+
+Hopper retired from the Naval Reserve with the rank of commander at the 
+end of 1966. She was recalled to active duty in August 1967 for a 
+six-month period that turned into an indefinite assignment. She again 
+retired in 1971, but was asked to return to active duty again in 1972. 
+She was promoted to captain in 1973 by Admiral Elmo R. Zumwalt, Jr.
+ 
+After Rep. Philip Crane saw her on a March 1983 segment of 60 Minutes, 
+he championed H.J.Res. 341, a joint resolution in the House of 
+Representatives which led to her promotion to commodore by special 
+Presidential appointment. In 1985, the rank of commodore was renamed 
+rear admiral, lower half. She retired (involuntarily) from the Navy on 
+August 14, 1986. At a celebration held in Boston on the USS Constitution 
+to celebrate her retirement, Hopper was awarded the Defense 
+Distinguished Service Medal, the highest non-combat award possible by 
+the Department of Defense. At the time of her retirement, she was the 
+oldest commissioned officer in the United States Navy (79 years, eight 
+months and five days), and aboard the oldest commissioned ship in the 
+United States Navy (188 years, nine months and 23 days).
+ 
+She was then hired as a senior consultant to Digital Equipment 
+Corporation, a position she retained until her death in 1992, aged 85.
+ 
+Her primary activity in this capacity was as a goodwill ambassador, 
+lecturing widely on the early days of computers, her career, and on 
+efforts that computer vendors could take to make life easier for their 
+users. She visited a large fraction of Digital's engineering facilities, 
+where she generally received a standing ovation at the conclusion of her 
+remarks. She was an interesting and engaging speaker, and the most 
+memorable part of these talks was her illustration of a nanosecond. She 
+salvaged an obsolete Bell System 25 pair telephone cable, cut it to 11.8 
+inch (30 cm) lengths (which is the distance that light travels in one 
+nanosecond) and handed out the individual wires to her listeners. 
+Although no longer a serving officer, she always wore her Navy full 
+dress uniform to these lectures.
+ 
+"The most important thing I've accomplished, other than building the 
+compiler, is training young people. They come to me, you know, and say, 
+'Do you think we can do this?' I say, 'Try it.' And I back 'em up. They 
+need that. I keep track of them as they get older and I stir 'em up at 
+intervals so they don't forget to take chances."
+ 
+She was laid to rest with full military honors in Arlington National 
+Cemetery.
