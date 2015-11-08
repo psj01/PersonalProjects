@@ -1,0 +1,7 @@
+This is a java program using swing 
+
+it allows the user to design tiles using images or if the user wish they can click a random button and the program will 
+automatically generate a random tile design for the user.
+
+reset button clears the tiles back to an empty design.
+
