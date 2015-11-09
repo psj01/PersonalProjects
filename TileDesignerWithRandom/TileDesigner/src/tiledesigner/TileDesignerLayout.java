@@ -20,6 +20,8 @@ import java.util.Random;
 import javax.swing.BorderFactory;
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
+import javax.swing.JOptionPane;
+import static javax.swing.JOptionPane.ERROR_MESSAGE;
 import javax.swing.JPanel;
 import javax.swing.JToolBar;
 
@@ -211,7 +213,15 @@ public class TileDesignerLayout extends JPanel
            {
                gif2dArray[xIndex][yIndex] = imageA[selectedTile];
            }
+           else
+           {
+               JOptionPane.showMessageDialog(this, "Please select an icon first.", "Oops!", ERROR_MESSAGE);
+           }
             this.repaint();  //show new grid
+         }
+         else
+         {
+             JOptionPane.showMessageDialog(this, "Please click inside the grid.", "Oops!", ERROR_MESSAGE);
          }
         }
 
