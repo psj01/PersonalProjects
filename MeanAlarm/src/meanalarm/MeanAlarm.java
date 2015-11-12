@@ -3,6 +3,9 @@
 package meanalarm;
 
 
+import java.awt.Toolkit;
+import java.io.FileInputStream;
+import java.io.IOException;
 import java.sql.Time;
 import java.text.DateFormat;
 import java.text.Format;
@@ -12,15 +15,21 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.Scanner;
+import sun.audio.AudioData;
+import sun.audio.AudioPlayer;
+import sun.audio.AudioStream;
+import sun.audio.ContinuousAudioDataStream;
 
 /**
  *
  * @author Jobin
  */
 public class MeanAlarm {
+    
+    
 
     
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
                 
        Date today = Calendar.getInstance().getTime(); 
       
@@ -60,8 +69,7 @@ public class MeanAlarm {
        
        System.out.println("U entered : " + go);
        
-       while(go.equals(min) == false)
-           
+       while(go.equals(min) == false)           
        {
            System.out.println("min is : " + min + " go is : " + go +" So... NOT YET....");
            Date yo = Calendar.getInstance().getTime(); 
@@ -74,17 +82,41 @@ public class MeanAlarm {
        
        }
        //ALARM!!
-       System.out.println("what is 5*2 : ");
-       String ans = cin.nextLine();
-       while(ans.equals("10") == false)
-       {           
-           //KEEP PLAYING ALARM
-           System.out.println("NOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO!");
-           ans = cin.nextLine();
-       }
-       // STOP ALARM
-       System.out.println("UR AWAKE!");
+       soundAlarm();
+       
+      
        
     }
     
+    
+    
+    public static void soundAlarm() throws IOException
+	{
+            
+            ContinuousAudioDataStream loop = null;
+            AudioPlayer play = AudioPlayer.player;
+            AudioStream sound;
+            AudioData soundData;
+            sound = new AudioStream(new FileInputStream("bark.wav"));
+            soundData = sound.getData();
+            loop = new ContinuousAudioDataStream(soundData);
+            
+            play.start(loop);
+              Scanner cin = new Scanner(System.in);
+            
+            System.out.println("what is 5*2 : ");
+       String ans = cin.nextLine();
+       while(ans.equals("10") == false)
+       {
+           System.out.println("WRONG!!! TRY AGAIN!");
+           ans = cin.nextLine();
+       }
+       // STOP ALARM
+       play.stop(loop);
+       System.out.println("UR AWAKE!");
+		
+        }
+    
 }
+
+
