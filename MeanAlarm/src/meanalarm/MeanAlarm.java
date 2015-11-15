@@ -16,9 +16,13 @@ import java.awt.TextField;
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.FileInputStream;
+import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Date;
 import java.util.HashMap;
+import java.util.Scanner;
 import javax.swing.BorderFactory;
 import javax.swing.DefaultListModel;
 import javax.swing.ImageIcon;
@@ -32,8 +36,13 @@ import javax.swing.JRadioButton;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
+import javax.swing.Timer;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
+import sun.audio.AudioData;
+import sun.audio.AudioPlayer;
+import sun.audio.AudioStream;
+import sun.audio.ContinuousAudioDataStream;
 
 /**
  *
@@ -42,7 +51,7 @@ import javax.swing.event.ListSelectionListener;
 
 
 
-public class MeanAlarm extends JFrame implements ActionListener  {    
+public class MeanAlarm extends JFrame  {    
     
     
     private final JButton setAlarm = new JButton("SET ALARM");
@@ -61,7 +70,7 @@ public class MeanAlarm extends JFrame implements ActionListener  {
     JRadioButton am2 = new JRadioButton("AM");
     JRadioButton pm2 = new JRadioButton("PM");
     
-    JTextArea label2 = new JTextArea("ALARM WILL GO OFF IN : ");
+    JTextArea label2 = new JTextArea();
     
     
     JTextField ahr = new JTextField(2);
@@ -72,6 +81,10 @@ public class MeanAlarm extends JFrame implements ActionListener  {
 
     
     private MeanAlarm current = null;  
+    
+    String hrs,mins;
+    
+    String a;
     
 
     public static void main(String[] args)
@@ -132,18 +145,84 @@ public class MeanAlarm extends JFrame implements ActionListener  {
         south.add(setAlarm);
         
         add(south, BorderLayout.SOUTH);
+        label2.setText(new Date().toString()); 
+        
+        Timer t = new Timer(1000, updateClockAction);
+        t.start();
+        
+        a = "39";
+        
+       
         
         
     }
     
+            
     
-    @Override
-    public void actionPerformed(ActionEvent e) 
-    {
-        
-    }
+    
+   
+        ActionListener updateClockAction = new ActionListener(){
+        @Override
+        public void actionPerformed(ActionEvent e) 
+        {
+            //label2.setText(new Date().toString()); 
+            Date today = Calendar.getInstance().getTime();
+            String x = today.toString();
+            label2.setText(today.toString());
+            
+            hrs = x.substring(11,13);
+       System.out.println(hrs);
+       
+       mins = x.substring(14,16);
+       System.out.println(mins);
+       
+       if(a.equalsIgnoreCase(mins))
+       {
+           try
+           {
+               soundAlarm();
+           }
+           catch (Exception msg)
+           {
+               System.out.println(msg);
+           }
+       }
+       
+       
+        }
        
     
+
+};  
+        
+        
+        public static void soundAlarm() throws IOException
+	{
+            
+            ContinuousAudioDataStream loop = null;
+            AudioPlayer play = AudioPlayer.player;
+            AudioStream sound;
+            AudioData soundData;
+            sound = new AudioStream(new FileInputStream("bark.wav"));
+            soundData = sound.getData();
+            loop = new ContinuousAudioDataStream(soundData);
+            
+            play.start(loop);
+              Scanner cin = new Scanner(System.in);
+            
+            System.out.println("what is 5*2 : ");
+       String ans = cin.nextLine();
+       while(ans.equals("10") == false)
+       {
+           System.out.println("WRONG!!! TRY AGAIN!");
+           ans = cin.nextLine();
+       }
+       // STOP ALARM
+       play.stop(loop);
+       System.out.println("UR AWAKE!");
+		
+        }
+
 }
 
 
