@@ -23,9 +23,10 @@ namespace dotNetYo
 
             label5.Visible = false;
             this.BackColor = System.Drawing.Color.Red;
+            button2.Enabled = false;
+            button2.BackColor = Color.Gray;
 
             label2.Text = DateTime.Now.ToShortTimeString();
-
             label3.Text = " ";
             label4.Text = " ";
         }
@@ -63,7 +64,8 @@ namespace dotNetYo
             }
             else
             {
-
+                button1.BackColor = Color.Gray;
+                button2.BackColor = Color.Yellow;
                 label4.Text = "Alarm set for: ";
                 label3.Text = comboBox1.Text + ":" + comboBox2.Text + " " +rb.Text;
             }
@@ -82,6 +84,8 @@ namespace dotNetYo
         {
             button2.Enabled = false;
             button1.Enabled = true;
+            button1.BackColor = Color.YellowGreen;
+            button2.BackColor = Color.Gray;
             label3.Text = " ";
             label4.Text = " ";
             label5.Visible = false;
