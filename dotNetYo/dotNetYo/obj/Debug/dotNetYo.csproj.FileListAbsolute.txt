@@ -1,0 +1,9 @@
+C:\Users\Jobin\Desktop\test\dotNetYo\dotNetYo\bin\Debug\dotNetYo.exe.config
+C:\Users\Jobin\Desktop\test\dotNetYo\dotNetYo\bin\Debug\dotNetYo.exe
+C:\Users\Jobin\Desktop\test\dotNetYo\dotNetYo\bin\Debug\dotNetYo.pdb
+C:\Users\Jobin\Desktop\test\dotNetYo\dotNetYo\obj\Debug\dotNetYo.csprojResolveAssemblyReference.cache
+C:\Users\Jobin\Desktop\test\dotNetYo\dotNetYo\obj\Debug\dotNetYo.Form1.resources
+C:\Users\Jobin\Desktop\test\dotNetYo\dotNetYo\obj\Debug\dotNetYo.Properties.Resources.resources
+C:\Users\Jobin\Desktop\test\dotNetYo\dotNetYo\obj\Debug\dotNetYo.csproj.GenerateResource.Cache
+C:\Users\Jobin\Desktop\test\dotNetYo\dotNetYo\obj\Debug\dotNetYo.exe
+C:\Users\Jobin\Desktop\test\dotNetYo\dotNetYo\obj\Debug\dotNetYo.pdb
