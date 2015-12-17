@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Media;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -19,9 +20,12 @@ namespace dotNetYo
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            this.BackColor = System.Drawing.Color.Red;
+
             label2.Text = DateTime.Now.ToShortTimeString();
 
             label3.Text = " ";
+            label4.Text = " ";
         }
 
         
@@ -57,6 +61,8 @@ namespace dotNetYo
             }
             else
             {
+
+                label4.Text = "Alarm set for: ";
                 label3.Text = comboBox1.Text + ":" + comboBox2.Text + " " +rb.Text;
             }
             
@@ -75,6 +81,7 @@ namespace dotNetYo
             button2.Enabled = false;
             button1.Enabled = true;
             label3.Text = " ";
+            label4.Text = " ";
         }
 
         private void timer2_Tick(object sender, EventArgs e)
@@ -83,11 +90,16 @@ namespace dotNetYo
             {
                // AutoClosingMessageBox.Show("Wake Up!", "ALARM", 1000);
               //  MessageBox.Show("WAKE UP!");
-
-                label3.Text = "WAKE UP .... WAKE UP....";
+                label3.Font = new Font(label3.Font, FontStyle.Bold);
+                label4.Font = new Font(label4.Font, FontStyle.Bold);
+                SystemSounds.Beep.Play();
+                label3.Text = "WAKE UP....";
+                label4.Text = "WAKE UP....";
 
             }
         }
+
+        
 
         
     }
