@@ -20,6 +20,8 @@ namespace dotNetYo
 
         private void Form1_Load(object sender, EventArgs e)
         {
+
+            label5.Visible = false;
             this.BackColor = System.Drawing.Color.Red;
 
             label2.Text = DateTime.Now.ToShortTimeString();
@@ -82,6 +84,9 @@ namespace dotNetYo
             button1.Enabled = true;
             label3.Text = " ";
             label4.Text = " ";
+            label5.Visible = false;
+            label3.Visible = true;
+            label4.Visible = true;
         }
 
         private void timer2_Tick(object sender, EventArgs e)
@@ -90,18 +95,16 @@ namespace dotNetYo
             {
                // AutoClosingMessageBox.Show("Wake Up!", "ALARM", 1000);
               //  MessageBox.Show("WAKE UP!");
-                label3.Font = new Font(label3.Font, FontStyle.Bold);
-                label4.Font = new Font(label4.Font, FontStyle.Bold);
                 SystemSounds.Beep.Play();
-                label3.Text = "WAKE UP....";
-                label4.Text = "WAKE UP....";
+                label3.Visible = false;
+                label4.Visible = false;
+                label5.Visible = true;
+                label5.Font = new Font(label5.Font, FontStyle.Bold);
+                label5.Text = "Wake Up!.....Wake Up!.....";
 
             }
         }
 
-        
-
-        
     }
 
 
