@@ -1,0 +1,12 @@
+C:\Users\Jobin\Desktop\rectangles\rectangles\bin\Debug\rectangles.exe.config
+C:\Users\Jobin\Desktop\rectangles\rectangles\bin\Debug\rectangles.exe
+C:\Users\Jobin\Desktop\rectangles\rectangles\bin\Debug\rectangles.pdb
+C:\Users\Jobin\Desktop\rectangles\rectangles\obj\Debug\rectangles.csprojResolveAssemblyReference.cache
+C:\Users\Jobin\Desktop\rectangles\rectangles\obj\Debug\rectangles.Form1.resources
+C:\Users\Jobin\Desktop\rectangles\rectangles\obj\Debug\rectangles.Properties.Resources.resources
+C:\Users\Jobin\Desktop\rectangles\rectangles\obj\Debug\rectangles.csproj.GenerateResource.Cache
+C:\Users\Jobin\Desktop\rectangles\rectangles\obj\Debug\rectangles.exe
+C:\Users\Jobin\Desktop\rectangles\rectangles\obj\Debug\rectangles.pdb
+C:\Users\Jobin\Documents\GitHub\PersonalProjects\drawRectangles\rectangles\rectangles\bin\Debug\rectangles.exe.config
+C:\Users\Jobin\Documents\GitHub\PersonalProjects\drawRectangles\rectangles\rectangles\obj\Debug\rectangles.exe
+C:\Users\Jobin\Documents\GitHub\PersonalProjects\drawRectangles\rectangles\rectangles\obj\Debug\rectangles.pdb
