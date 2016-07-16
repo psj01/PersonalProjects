@@ -1,0 +1,9 @@
+C:\Users\Jobin\Desktop\pwYo\passMe\passMe\bin\Debug\passMe.exe.config
+C:\Users\Jobin\Desktop\pwYo\passMe\passMe\bin\Debug\passMe.exe
+C:\Users\Jobin\Desktop\pwYo\passMe\passMe\bin\Debug\passMe.pdb
+C:\Users\Jobin\Desktop\pwYo\passMe\passMe\obj\Debug\passMe.csprojResolveAssemblyReference.cache
+C:\Users\Jobin\Desktop\pwYo\passMe\passMe\obj\Debug\passMe.Form1.resources
+C:\Users\Jobin\Desktop\pwYo\passMe\passMe\obj\Debug\passMe.Properties.Resources.resources
+C:\Users\Jobin\Desktop\pwYo\passMe\passMe\obj\Debug\passMe.csproj.GenerateResource.Cache
+C:\Users\Jobin\Desktop\pwYo\passMe\passMe\obj\Debug\passMe.exe
+C:\Users\Jobin\Desktop\pwYo\passMe\passMe\obj\Debug\passMe.pdb

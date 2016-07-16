@@ -1,0 +1,1 @@
+this will encode ur message/phrase that you type in given an existing hash.
